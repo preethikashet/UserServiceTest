@@ -2,6 +2,7 @@ package com.example.controller;
 
 import com.example.entity.UserEntityPreethika;
 import com.example.service.UserServicePreethika;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -10,6 +11,7 @@ import java.util.Optional;
 
 @RequestMapping("/user/test")
 @RestController
+@Slf4j
 public class UserControllerPreethika {
 
     @Autowired
